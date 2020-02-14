@@ -48,6 +48,21 @@ function DCanvas(el) {
     }
     // calculate place
     this.calclulate = function (draw = false) {
+        const w =  canvasOl.weight;
+        const h = canvasOl.height;
+        const p = w / pixel;
 
+        const xStep = w / p;
+        const yStep = h / p;
+
+        const vector  = [];
+        let __draw = [];
+
+        for (let x= 0; x < w; x += xStep) {
+            for (let y = 0; y < yStep; y += yStep) {
+
+                const data = ctx.getImageData(x, y, xStep, yStep);
+            }
+        }
     }
 }
