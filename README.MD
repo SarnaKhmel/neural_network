@@ -13,3 +13,13 @@ how to use
        key B - inspect;
        
 4. be fine;
+
+Photo for You)
+pleace with simbol
+![Your simbol in browser](first1.png)
+
+net after cheking
+
+![Image after...](first2.png)
+
+by SarnaKhmel)
